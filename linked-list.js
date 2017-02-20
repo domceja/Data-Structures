@@ -23,7 +23,7 @@ Node.prototype.getData = function () {
 // Linear data structure
 // represented by pointer to the first node of linked list; first node is called head, if empty value of head is null
 // last element will always point to NULL
-// Provide ability for dynamic size and ease of insertion and deletion
+// Pros: provide ability for dynamic size and ease of insertion and deletion
 // Cons: no random access, no cache locality, extra memory space for pointer of each elemenet
 function LinkedList() {
     this.head = new Node(null, null);
